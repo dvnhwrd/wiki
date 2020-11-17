@@ -24,4 +24,32 @@
       - Symbol value that is unique and cannot be changed
       - Bingint - large numbers
    - JS is dynamically typed, which means it doesn't need to be typed
+   - `typeof` - operator that shows you the type
+      - `typeof null` will return object, but this is a bug
+ - **Comments**
+   - `//` single line comment
+   - `/*` start a multi-line comment
+   - `*/` end a multi-line comment
+   - Can use ctrl + / in VSCode to comment out sections
+ - **let, const, and var**
+   - `let` allows a variable to be changed later
+      - Can use it to declare an empty variable
+   - `const` variables cannot be changed
+      - you will get a variable if you try and reassign it
+      - it turns it into an immutable item
+      - must have an initial value
+   - Use `const` by default
+   - `var` is a legacy term
+      - works similar to let, but don't use it
+   - you don't have to declare variables?? but dont, it will make it global
+ - **Basic Operators**
+   - Operators allow you to mutate code?
+   - think `+-/*`
+   - `**` to the power of
+   - can use the `+` operator to concatenate strings
+   - comparison operators always return boolean values
+ - **Operator Precedence**
+   - MDN has a list
+   - Math operators are done before comparison operators
+   - Assignment operators go last
 
